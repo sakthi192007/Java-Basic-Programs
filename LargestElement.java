@@ -1,0 +1,1 @@
+class LargestElement { public static void main(String[] args) { int arr[]={2,5,1,9}; int m=arr[0]; for(int i:arr) if(i>m)m=i; System.out.println(m); } }

@@ -1,0 +1,1 @@
+class SumOfArray { public static void main(String[] args) { int arr[]={1,2,3}; int s=0; for(int i:arr)s+=i; System.out.println(s); } }

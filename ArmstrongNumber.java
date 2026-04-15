@@ -1,0 +1,1 @@
+class ArmstrongNumber { public static void main(String[] args) { int n=153,s=0,t=n; while(n>0){int r=n%10;s+=r*r*r;n/=10;} System.out.println(s==t); } }
